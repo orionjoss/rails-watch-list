@@ -8,7 +8,14 @@ Crate the models for Movies, bookmarks and lists
 * [X] ~~*commit*~~ [2023-08-17]
 * [X] ~~*create validations*~~ [2023-08-17]
 * [X] ~~*seed data to the database*~~ [2023-08-17]
-* [ ] create
+* [X] ~~*create seed*~~ [2023-08-17]
+
+Routing, control and views for lists:
+
+# User story
+A user can see all the lists
+
+
 # NOTES:
 
 ### Generate models and migrations
