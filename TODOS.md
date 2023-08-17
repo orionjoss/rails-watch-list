@@ -13,8 +13,9 @@ Crate the models for Movies, bookmarks and lists
 Routing, control and views for lists:
 
 # User story
-A user can see all the lists
+* [X] ~~*A user can see all the lists*~~ [2023-08-17]
 
+A user can see the details of a given list and its name
 
 # NOTES:
 
