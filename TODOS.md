@@ -3,17 +3,20 @@
 # STEP 1:
 
 Movies, bookmarks and lists
-* [ ] Create model
-* [ ] migrate
-* [ ] commit
+* [X] ~~*Create model*~~ [2023-08-17]
+* [X] ~~*migrate*~~ [2023-08-17]
+* [X] ~~*commit*~~ [2023-08-17]
 * [ ] create validations
 
 
 # NOTES:
 
+### Generate models and migrations
 rails generate model movie title overview poster_url rating:integer
 rails db:migrate
 
-rails generate model bookmark comment id_movies:references id_list:references
+rails generate model bookmark comment movie:references list:references
 
 rails generate model list name
+
+### Creating validations
