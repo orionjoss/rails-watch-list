@@ -19,4 +19,7 @@ rails generate model bookmark comment movie:references list:references
 
 rails generate model list name
 
+## Test
+rspec spec/models
+
 ### Creating validations
