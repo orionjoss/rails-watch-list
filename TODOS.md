@@ -23,3 +23,7 @@ rails generate model list name
 rspec spec/models
 
 ### Creating validations
+
+
+destroy child:
+:dependent => :destroy
