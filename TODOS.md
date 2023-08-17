@@ -2,13 +2,13 @@
 
 # STEP 1:
 
-Movies, bookmarks and lists
+Crate the models for Movies, bookmarks and lists
 * [X] ~~*Create model*~~ [2023-08-17]
 * [X] ~~*migrate*~~ [2023-08-17]
 * [X] ~~*commit*~~ [2023-08-17]
-* [ ] create validations
-
-
+* [X] ~~*create validations*~~ [2023-08-17]
+* [X] ~~*seed data to the database*~~ [2023-08-17]
+* [ ] create
 # NOTES:
 
 ### Generate models and migrations
