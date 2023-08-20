@@ -50,6 +50,13 @@ rspec spec/models
 
 ### Creating validations
 
-
 destroy child:
 :dependent => :destroy
+
+# Heroku
+1. Creating an app on Heroku
+heroku create watch-list-oj --region=eu
+<!-- #Name must start with a letter, end with a letter or digit and can only contain lowercase letters, digits, and dashes. -->
+
+Adding cloudinary secret key:
+heroku config:set CLOUDINARY_URL=cloudinary://698364111552988:myy_MsG3Bhmhgool7AGGRPiCYdk@dxe8qhdmv
